@@ -1,3 +1,8 @@
-$main:
-$secondary:
-$highlight:
+$main: #252529;
+$secondary: #8b8b9f;
+$highlight: #73e298;
+
+* {
+  box-sizing: border-box; // so padding doesn't affect the width of the columns
+
+}
