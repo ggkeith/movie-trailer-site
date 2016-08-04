@@ -1,6 +1,7 @@
-$main: #252529;
-$secondary: #8b8b9f;
-$highlight: #73e298;
+/****Colors****
+main: #252529;
+secondary: #8b8b9f;
+highlight: #73e298;*/
 
 * {
   box-sizing: border-box; // so padding doesn't affect the width of the column
@@ -41,5 +42,17 @@ h1, h2, h3, h4, h5, h6 {
 
 #top-header .wrapper span {
   font-weight: 300;
-  color: $highlight;
+  color: #73e298;
+}
+
+#top-header #main-nav {
+  float: right;
+  font-size: 0.9em;
+  padding-top: 1em;
+}
+
+#top-header #main-nav a {
+  color: #8b8b9f;
+  text-decoration: none;
+  margin-left: 1em;
 }
