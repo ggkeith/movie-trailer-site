@@ -61,4 +61,15 @@ h1, h2, h3, h4, h5, h6 {
   background: url(../img/banner_background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  padding: 6.5em 0;
+}
+
+#banner-content-wrapper {
+  width: 900px;
+  max-width: 90%;
+  margin: 0 auto;
+  justify: flex;
+  justify-content: center;
+  align-items: center;
 }
