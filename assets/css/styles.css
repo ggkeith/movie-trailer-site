@@ -1,0 +1,45 @@
+$main: #252529;
+$secondary: #8b8b9f;
+$highlight: #73e298;
+
+* {
+  box-sizing: border-box; // so padding doesn't affect the width of the column
+}
+
+html, body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.wrapper {
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+#top-header {
+  padding: 1.5em 0;
+}
+
+#top-header .logo {
+  float: left;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#top-header span {
+  font-weight: 300;
+  color: $highlight;
+}
