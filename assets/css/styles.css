@@ -65,11 +65,44 @@ h1, h2, h3, h4, h5, h6 {
   padding: 6.5em 0;
 }
 
-#banner-content-wrapper {
+#banner #banner-content-wrapper {
   width: 900px;
   max-width: 90%;
   margin: 0 auto;
   justify: flex;
   justify-content: center;
   align-items: center;
+}
+
+#banner-content-wrapper #poster {
+  width: 275px;
+  position: relative;
+  float: left;
+}
+
+#banner-content-wrapper #poster .featured-image {
+  width: 100%;
+  max-width: 100%;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 0px 76px 0px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 0px 0px 76px 0px rgba(0, 0, 0, 0.47);
+  box-shadow: 0px 0px 76px 0px rgba(0, 0, 0, 0.47);
+}
+
+#banner-content-wrapper #poster .play-button {
+  position: absolute;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin: -40px 0 0 -40px; /*half of the 80px width from above*/
+}
+
+#content {
+  float: left;
+  width: 500px;
+  margin-left: 100px;
+}
+
+#content .title {
+  display: inline;
 }
