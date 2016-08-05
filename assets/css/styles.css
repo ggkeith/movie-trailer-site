@@ -123,3 +123,9 @@ h1, h2, h3, h4, h5, h6 {
 #content .ratings .inactive {
   color: #48494d;
 }
+
+#content .description {
+  color: #bbbebf;
+  font-size: 1em;
+  line-height: 2;
+}
