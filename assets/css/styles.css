@@ -140,3 +140,19 @@ h1, h2, h3, h4, h5, h6 {
 #content .info span {
   margin: 0 .5em;
 }
+
+.row {
+  width: 100%;
+}
+
+.row .post {
+  width: 14%;
+  float: left;
+  margin-right: 2.5%;
+}
+
+.row .post img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: .5em;
+}
